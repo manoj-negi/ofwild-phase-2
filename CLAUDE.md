@@ -99,7 +99,7 @@ Many-to-many fields (a photo's categories, collections, tags) are `hasMany` rela
 - Use Payload's Local API (`getPayload({ config })`) on the server; don't call the REST API from server code.
 - When calling `payload.create/update` on a union of collection slugs, branch per slug — Payload's types need a
   single literal slug.
-- Prettier config in `.prettierrc.json` (single quotes, no semicolons, 120 columns).
+- Prettier config in `.prettierrc.json` (single quotes, no semicolons, trailing commas, 100 columns).
 
 ## Checking changes
 
